@@ -16,7 +16,7 @@
         cursor: pointer;
 
         &::before { 
-            color: #ffd700; 
+            color: #c108c1; 
             font-size: 18px; 
             position: absolute; 
             margin-top: -40px; 
@@ -25,7 +25,7 @@
         }
 
         &::after { 
-            color: #ffd700; 
+            color: #c108c1; 
             font-size: 18px; 
             position: absolute; 
             margin-top: 18px; 
@@ -34,9 +34,9 @@
             opacity: 0.6; 
         }
         img { 
-            width: 80px; 
-            margin-left: 20px; 
-            margin-right: 3px;
+            width: 75px; 
+            margin-left: 22px; 
+            margin-right: 5px;
             opacity: 0; 
             height: auto; 
             animation: rotateIn 1s linear both; 
@@ -55,21 +55,21 @@
     }
 
     .flat-button { 
-        color: #ffd700; 
+        color: #c108c1; 
         font-size: 15px; 
         font-weight: 800;
         letter-spacing: 4px;
         text-decoration: none;
         padding: 10px 18px; 
-        border: 2px solid #ffd700; 
+        border: 2px solid #c108c1; 
         margin-top: 25px; 
         float: left; 
         animation: fadeIn 1s 1.8s backwards; 
         white-space: nowrap; 
 
         &:hover { 
-            background: #ffd700; 
-            color: #333;
+            background: #c108c1; 
+            color: #fffcfc;
         }
     }
 }
