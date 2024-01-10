@@ -76,21 +76,21 @@
     }
   }
   .flat-button { 
-    color: #ffd700; 
+    color: #c108c1; 
     font-size: 15px; 
     font-weight: 800;
     letter-spacing: 4px;
     text-decoration: none;
     padding: 10px 70px; 
-    border: 2px solid #ffd700; 
+    border: 2px solid #c108c1; 
     margin-top: 25px; 
     float: left; 
     animation: fadeIn 1s 1.8s backwards; 
     white-space: nowrap; 
 
     &:hover { 
-        background: #ffd700; 
-        color: #333;
+        background: #c108c1; 
+        color: #ffffff;
     }
 }
 
