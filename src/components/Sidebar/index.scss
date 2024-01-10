@@ -8,24 +8,24 @@
     min-height: 500px;
     transition: width 0.3s ease-in-out;
 
-    &:hover {
-        width: 130px;
-        .logo{
-            padding: 8px 10px; /* Adjust padding to match expanded width */
-            img {
-                width: 70%; /* Make the logo fill the expanded width */
-            }
-            .sub-logo{
-                width: 70%;
-                padding-left: 12px;
-            }
-        }
-        a{
-            &:after{
-                font-size: 18px;
-            }
-        }
-    }
+    // &:hover {
+    //     width: 130px;
+    //     .logo{
+    //         padding: 8px 10px; /* Adjust padding to match expanded width */
+    //         img {
+    //             width: 70%; /* Make the logo fill the expanded width */
+    //         }
+    //         .sub-logo{
+    //             width: 70%;
+    //             padding-left: 12px;
+    //         }
+    //     }
+    //     a{
+    //         &:after{
+    //             font-size: 18px;
+    //         }
+    //     }
+    // }
     
     .logo{
         display: block; 
@@ -34,12 +34,13 @@
         img { 
             display: block; 
             margin: 8px auto; 
-            margin-left: 4px;
+            margin-left: 8px;
             width: 40px; 
             height: auto;
             
             &.sub-logo { 
                 width: 50px; 
+                margin-left: 5px;
             }
         }
     }
@@ -66,7 +67,7 @@
             }
 
             &:hover { 
-                color: #ffd700; 
+                color: #c108c1; 
                 
                 svg { 
                     opacity: 0; 
@@ -112,17 +113,19 @@
         a.contact-link { 
             &:after { 
                 content: "CONTACT"; 
+                font-size: 7px; 
             }
         }
         a.portfolio-link { 
             &:after { 
                 content: "PORTFOLIO"; 
+                font-size: 6px; 
             }
         }
 
         a.active{
             svg{
-                color: #ffd700; 
+                color: #c108c1; 
             }
         }
     }
@@ -144,7 +147,7 @@
                 line-height: 16px; 
 
                 &:hover svg { 
-                    color: #ffd700; 
+                    color: #c108c1; 
                 }
             }
         }
