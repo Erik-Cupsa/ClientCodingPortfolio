@@ -26,7 +26,7 @@ const About = () => {
             <div className = "container about-page"> 
                 <div className = "text-zone"> 
                     <h1>
-                        <AnimatedLetters letterClass={letterClass}  strArray = {"About me".split("")} idx={15}/>
+                        <AnimatedLetters letterClass={letterClass} strArray = {"About me".split("")} idx={15}/>
                     </h1>
                     <p>
                     I am a very ambitious software developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge. 
