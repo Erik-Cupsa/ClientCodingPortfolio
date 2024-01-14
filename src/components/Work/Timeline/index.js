@@ -4,7 +4,7 @@ import './index.scss';
 const Timeline = () => {
   const [events, setEvents] = useState([
     {
-      date: 'May-September 2023',
+      date: 'Jun 2022 - May 2023',
       title: "Kadama Tutoring",
       description: [
         "Dedicated and results-driven tutor with a proven track record of success in guiding students through challenging subjects.",
@@ -14,7 +14,7 @@ const Timeline = () => {
       "expanded": false
     },
     {
-      date: "October 2022-January 2024",
+      date: "Aug 2021 - May 2022",
       title: "NASA HUNCH",
       description: [
         "Spearheaded the development of <b>magnetic boots</b> by leveraging expertise in manipulating stepper motors and electromagnets using <b>Arduino</b> and <b>C++</b>.",
@@ -24,7 +24,7 @@ const Timeline = () => {
       "expanded": false
     }, 
     {
-      date: "September 2022-June 2023",
+      date: "Aug 2021 - May 2023",
       title: "Hack Club",
       description: [
         "Pioneering leader in the establishment and leadership of the first Computer Science Club at <b>Chatfield Senior High School</b>, operating under the auspices of the <b>Hack Club</b> organization.",
