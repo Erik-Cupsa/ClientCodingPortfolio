@@ -50,7 +50,7 @@ const Sidebar = () => {
                     </a>
                 </li>
             </ul>
-            <FontAwesomeIcon onClick={() => setShowNav(true)} icon={faBars} color="#ffd700" size="3x" className="hamburger-icon" />
+            <FontAwesomeIcon onClick={() => setShowNav(true)} icon={faBars} color="#c108c1" size="3x" className="hamburger-icon" />
         </div>
     )
 }

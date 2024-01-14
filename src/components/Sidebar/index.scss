@@ -159,10 +159,11 @@
 }
 @media screen and (max-width: 1000px){
     .nav-bar{
-        background: transparent; 
+        background: #181818; 
         position: initial; 
         height: auto; 
         min-height: auto;
+        width: 100%;
 
         ul, nav{
             display: none;
