@@ -2,6 +2,9 @@
 
 Welcome to Max Craig's freelance coding portfolio! This web application is built using ReactJs with Sass styling, showcasing Max's skills, projects, and achievements in the field of web development.
 
+<img width="1426" alt="Screenshot 2024-01-15 at 5 17 47 PM" src="https://github.com/Erik-Cupsa/ClientCodingPortfolio/assets/86483911/a3da3213-8204-45e3-9a0b-50ea159e7fab">
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
